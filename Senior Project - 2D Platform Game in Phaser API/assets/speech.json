@@ -1,0 +1,26 @@
+{
+      "name":"Friendly Merchant",
+      "key":"friendly-merchant".
+      "start":"1",
+      "elements": {
+              "1":{
+                "npc":"Hello! What would you like to purchase?",
+                "character":{
+                          "2":{
+                            "text":"Well, what do you have?",
+                            "followup":"4"
+                          },
+                          "3":{
+                            "text":"Actually, I'm not interested.",
+                            "followup":"5"
+                          }
+                }
+              },
+              "4":{
+                "npc":"I have a magic sword."
+              },
+              "5":{
+                "npc":"Ok, nice talking to you."
+              }
+      }
+}
